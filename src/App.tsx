@@ -1,25 +1,40 @@
-import React from 'react';
-import logo from './logo.svg';
+import { useState } from 'react';
 import './App.css';
+import Navbar from './components/Navbar/Navbar';
+import Home from './Pages/Home';
+
+const navItems = ['Home', 'About Us', 'Services', 'Solutions', 'Contact'];
+
 
 function App() {
+  const [activeNavItem, setActiveNavItem] = useState('Home');
+
+  const handleNavChange = (item: string) => {
+    setActiveNavItem(item);
+  };
+
+
+  const renderPage = () => {
+    switch (activeNavItem) {
+      case 'Home':
+        return <Home onNavChange={handleNavChange} />;
+      default:
+        return <Home onNavChange={handleNavChange} />;
+    }
+  };
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <div className="min-h-screen">
+        <Navbar
+          navItems={navItems}
+          activeItem={activeNavItem}
+          onNavChange={handleNavChange}
+        />
+        {renderPage()}
+      </div>
+    </>
   );
 }
 
