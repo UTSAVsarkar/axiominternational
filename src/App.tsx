@@ -5,6 +5,7 @@ import About from './Pages/About/About';
 import ContactWrap from './Pages/Contact/ContactWrap';
 import Navbar from './components/Navbar';
 import Services from './Pages/Services/Services';
+import Solution from './Pages/Solution/Solution';
 
 const navItems = ['Home', 'About Us', 'Services', 'Solutions', 'Contact'];
 
@@ -25,6 +26,8 @@ function App() {
         return <About />;
       case 'Services':
         return <Services />;
+      case 'Solutions':
+        return <Solution />;
       case 'Contact':
         return <ContactWrap />;
       default:

@@ -1,10 +1,10 @@
 import { motion } from "framer-motion";
 import React, { useEffect, useState } from "react";
-import Temp from "../components/Temp";
 import Contact from "./Contact/Contact";
 import AboutUsIntro from "../IntroPages/AboutUsIntro/AboutUsInto";
 import ServicesIntro from "../IntroPages/ServiceIntro/ServiceIntro";
 import ParallaxImage from "../components/ParallaxImage";
+import RunningCards from "../components/RunningCards";
 
 interface Props {
     onNavChange: (item: string) => void;
@@ -65,7 +65,7 @@ const Home: React.FC<Props> = ({ onNavChange }) => {
                             onNavChange('About Us');
                         }}
                     >
-                        Connect Us
+                        CONNECT US
                     </motion.button>
                 </div>
             </section>
@@ -80,7 +80,7 @@ const Home: React.FC<Props> = ({ onNavChange }) => {
                 author="Ratan Tata"
             />
 
-            <Temp />
+            <RunningCards onNavChange={onNavChange} />
 
             <Contact />
         </>
