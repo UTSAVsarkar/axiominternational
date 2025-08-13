@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/axiominternational/static/css/main.f855e6bc.css",
+    "main.js": "/axiominternational/static/js/main.125c7bfb.js",
+    "static/js/453.bf6b92ea.chunk.js": "/axiominternational/static/js/453.bf6b92ea.chunk.js",
+    "static/media/logo.svg": "/axiominternational/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/axiominternational/index.html",
+    "main.f855e6bc.css.map": "/axiominternational/static/css/main.f855e6bc.css.map",
+    "main.125c7bfb.js.map": "/axiominternational/static/js/main.125c7bfb.js.map",
+    "453.bf6b92ea.chunk.js.map": "/axiominternational/static/js/453.bf6b92ea.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.125c7bfb.js"
+  ]
+}
