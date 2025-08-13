@@ -62,7 +62,7 @@ const Home: React.FC<Props> = ({ onNavChange }) => {
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 1, ease: "easeOut", delay: 0.3 }}
                         onClick={() => {
-                            onNavChange('About Us');
+                            onNavChange('Contact');
                         }}
                     >
                         CONNECT US
