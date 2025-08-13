@@ -53,9 +53,9 @@ export default function Navbar(props: Props) {
                             <Button
                                 key={item}
                                 sx={{
-                                    color: activeItem === item ? '#8b5cf6' : '#fff',
+                                    color: activeItem === item ? '#b06118' : '#fff',
                                     textTransform: "none",
-                                    "&:hover": { color: "#8b5cf6" },
+                                    "&:hover": { color: "#b06118" },
                                     fontSize: '1rem'
                                 }}
                                 onClick={() => handleNavItemClick(item)}
@@ -86,7 +86,7 @@ export default function Navbar(props: Props) {
                     <List>
                         {navItems.map((item) => (
                             <ListItem key={item} component="a">
-                                <ListItemText sx={{ color: activeItem === item ? '#8b5cf6' : '#fff', }} primary={item} onClick={() => handleNavItemClick(item)} />
+                                <ListItemText sx={{ color: activeItem === item ? '#b06118' : '#fff', }} primary={item} onClick={() => handleNavItemClick(item)} />
                             </ListItem>
                         ))}
                     </List>

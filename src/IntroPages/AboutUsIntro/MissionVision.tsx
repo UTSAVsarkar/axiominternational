@@ -62,7 +62,7 @@ export default function MissionVision(props: Props) {
                     }}
                 >
                     <img
-                        src="https://static.wixstatic.com/media/c837a6_73b0c47b3d1549e4b96178367ef6c597~mv2.jpg/v1/fill/w_1728,h_1389,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/c837a6_73b0c47b3d1549e4b96178367ef6c597~mv2.jpg"
+                        src="https://static.wixstatic.com/media/c837a6_0564cc8d4e9f42cd8e318c80b1617eaf~mv2.jpg/v1/fill/w_1728,h_2000,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/c837a6_0564cc8d4e9f42cd8e318c80b1617eaf~mv2.jpg"
                         alt="Tech visual"
                         style={{ width: "100%", height: "100%", objectFit: "cover" }}
                     />

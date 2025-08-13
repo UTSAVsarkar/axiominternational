@@ -4,6 +4,7 @@ import Home from './Pages/Home';
 import About from './Pages/About/About';
 import ContactWrap from './Pages/Contact/ContactWrap';
 import Navbar from './components/Navbar';
+import Services from './Pages/Services/Services';
 
 const navItems = ['Home', 'About Us', 'Services', 'Solutions', 'Contact'];
 
@@ -22,6 +23,8 @@ function App() {
         return <Home onNavChange={handleNavChange} />;
       case 'About Us':
         return <About />;
+      case 'Services':
+        return <Services />;
       case 'Contact':
         return <ContactWrap />;
       default:

@@ -1,5 +1,5 @@
-import MotionLine from "../components/MotionLine";
-import SectionIntro from "../components/SectionIntro";
+import MotionLine from "../../components/MotionLine";
+import SectionIntro from "../../components/SectionIntro";
 import MissionVision from "./MissionVision";
 
 interface Props {

@@ -1,8 +1,10 @@
 import { motion } from "framer-motion";
 import React, { useEffect, useState } from "react";
 import Temp from "../components/Temp";
-import AboutUsIntro from "../IntroPages/AboutUsInto";
 import Contact from "./Contact/Contact";
+import AboutUsIntro from "../IntroPages/AboutUsIntro/AboutUsInto";
+import ServicesIntro from "../IntroPages/ServiceIntro/ServiceIntro";
+import ParallaxImage from "../components/ParallaxImage";
 
 interface Props {
     onNavChange: (item: string) => void;
@@ -55,10 +57,10 @@ const Home: React.FC<Props> = ({ onNavChange }) => {
 
 
                     <motion.button
-                        className="border border-white px-6 py-3 text-lg hover:bg-white hover:text-black transition"
+                        className="border border-white px-6 py-3 text-lg hover:bg-white hover:text-black"
                         initial={{ opacity: 0, y: 40 }}
                         animate={{ opacity: 1, y: 0 }}
-                        transition={{ duration: 0.8, ease: "easeOut", delay: 0.3 }}
+                        transition={{ duration: 1, ease: "easeOut", delay: 0.3 }}
                         onClick={() => {
                             onNavChange('About Us');
                         }}
@@ -69,6 +71,14 @@ const Home: React.FC<Props> = ({ onNavChange }) => {
             </section>
 
             <AboutUsIntro onNavChange={onNavChange} />
+
+            <ServicesIntro onNavChange={onNavChange} />
+
+            <ParallaxImage
+                image="https://static.wixstatic.com/media/c837a6_44e3014997b64b829ef10d8761ce79ee~mv2.jpg/v1/fill/w_1568,h_1600,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/c837a6_44e3014997b64b829ef10d8761ce79ee~mv2.jpg"
+                text="We believe business must look beyond itself to serve communities and build lasting impact."
+                author="Ratan Tata"
+            />
 
             <Temp />
 
