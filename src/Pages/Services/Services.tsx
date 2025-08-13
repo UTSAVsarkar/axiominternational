@@ -4,6 +4,7 @@ import Contact from '../Contact/Contact';
 import { motion } from 'framer-motion';
 import { KeyboardDoubleArrowDown } from '@mui/icons-material';
 import ServiceShowcase from './ServiceShowcase';
+import ParallaxImage from '../../components/ParallaxImage';
 
 function Services() {
     return (
@@ -58,6 +59,11 @@ function Services() {
           `}
                 </style>
             </Box>
+            <ParallaxImage
+                image="https://static.wixstatic.com/media/c837a6_0ff8e923927c4f789f092e23597f2220~mv2.jpg/v1/fill/w_3264,h_1337,al_c,q_90,enc_avif,quality_auto/c837a6_0ff8e923927c4f789f092e23597f2220~mv2.jpg"
+                text=" Innovation builds the tools, strategy charts the course but it’s people who create the change."
+                author="-Inspired by visionary leaders"
+            />
             <Contact />
         </>
     );

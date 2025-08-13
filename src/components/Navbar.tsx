@@ -35,17 +35,20 @@ export default function Navbar(props: Props) {
             <AppBar
                 position="absolute"
                 sx={{
-                    backgroundColor: "transparent",
+                    backgroundColor: 'rgba(0, 0, 0, 0.4)',
+                    backdropFilter: 'blur(12px)',
                     boxShadow: "none",
                     color: "#fff",
                 }}
             >
                 <Toolbar sx={{ justifyContent: "space-between" }}>
                     {/* Logo */}
-                    <Typography variant="h4" sx={{ display: "flex", alignItems: "center", gap: "4px" }}>
-                        Axion
-                        <span style={{ color: "#8b5cf6", fontSize: "2.5rem" }}>.</span>
-                    </Typography>
+                    <div style={{ cursor: 'pointer' }} onClick={() => handleNavItemClick('Home')}>
+                        <Typography variant="h4" sx={{ display: "flex", alignItems: "center", gap: "4px", cursor: 'pointer' }}>
+                            Axion
+                            <span style={{ color: "#b06118", fontSize: "2.5rem" }}>.</span>
+                        </Typography>
+                    </div>
 
                     {/* Desktop Menu */}
                     <Box sx={{ display: { xs: "none", md: "flex" }, gap: 3 }}>

@@ -37,6 +37,7 @@ function About() {
                     </h1>
                     <KeyboardDoubleArrowDown className="responsive-icon" />
                 </motion.div>
+
                 <InfoCard />
 
                 {/* Responsive heading / icon styles */}
@@ -60,7 +61,7 @@ function About() {
             <ParallaxImage
                 image="https://static.wixstatic.com/media/c837a6_7635659d6dbc4f81a999fea168e5594b~mv2.jpg/v1/fill/w_3456,h_1181,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/c837a6_7635659d6dbc4f81a999fea168e5594b~mv2.jpg"
                 text="Technology can open the door, strategy can show the way — but it’s people who turn vision into results."
-                author="Inspired by modern business leaders"
+                author="-Inspired by modern business leaders"
             />
 
             <Contact />

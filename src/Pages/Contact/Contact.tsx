@@ -113,9 +113,10 @@ const Contact = () => {
                         />
 
                         <Button
+                            disabled //remove
                             type="submit"
                             variant="contained"
-                            disabled={loading}
+                            // disabled={loading}
                             endIcon={!loading && <SendIcon />}
                             sx={{
                                 backgroundColor: "#A85E1F",

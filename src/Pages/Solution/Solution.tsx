@@ -46,7 +46,7 @@ export default function Solution() {
                     transition={{ duration: 1, ease: "easeIn" }}
                     style={{ marginTop: '2rem' }}
                 >
-                    <Typography variant="h4">At Optimax Advisory</Typography>
+                    <Typography variant="h4">At Axiom International</Typography>
                     <h1 className="responsive-heading">
                         We help manufacturing <br />
                         businesses unlock <br />
@@ -103,7 +103,7 @@ export default function Solution() {
             <ParallaxImage
                 image="https://static.wixstatic.com/media/c837a6_44e3014997b64b829ef10d8761ce79ee~mv2.jpg/v1/fill/w_2400,h_1600,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/c837a6_44e3014997b64b829ef10d8761ce79ee~mv2.jpg"
                 text="You can dream, create, design, and build the most wonderful place in the world. But it requires people to make the dream a reality."
-                author="WALT DISNEY"
+                author="-WALT DISNEY"
             />
             <Contact />
         </>
