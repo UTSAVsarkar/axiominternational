@@ -1,0 +1,26 @@
+import MotionLine from "../components/Navbar/MotionLine";
+import SectionIntro from "../components/SectionIntro";
+import MissionVision from "./MissionVision";
+
+interface Props {
+    onNavChange: (item: string) => void;
+}
+
+function AboutUsIntro(props: Props) {
+    return (
+        <>
+            <SectionIntro
+                title="ABOUT US"
+                descriptionLines={[
+                    "WHO ARE WE",
+                    "WHAT WE DO",
+                ]}
+                bgcolor="black"
+            />
+            <MotionLine color='white' />
+            <MissionVision onNavChange={props.onNavChange} />
+        </>
+    );
+}
+
+export default AboutUsIntro;

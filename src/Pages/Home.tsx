@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import React, { useEffect, useState } from "react";
 import Temp from "../components/Temp";
+import AboutUsIntro from "../IntroPages/AboutUsInto";
 
 interface Props {
     onNavChange: (item: string) => void;
@@ -62,7 +63,8 @@ const Home: React.FC<Props> = ({ onNavChange }) => {
                     </motion.button>
                 </div>
             </section>
-            <Temp />
+
+            <AboutUsIntro onNavChange={onNavChange} />
 
             <Temp />
         </>
