@@ -1,7 +1,9 @@
 import { useState } from 'react';
 import './App.css';
-import Navbar from './components/Navbar/Navbar';
 import Home from './Pages/Home';
+import About from './Pages/About/About';
+import ContactWrap from './Pages/Contact/ContactWrap';
+import Navbar from './components/Navbar';
 
 const navItems = ['Home', 'About Us', 'Services', 'Solutions', 'Contact'];
 
@@ -18,6 +20,10 @@ function App() {
     switch (activeNavItem) {
       case 'Home':
         return <Home onNavChange={handleNavChange} />;
+      case 'About Us':
+        return <About />;
+      case 'Contact':
+        return <ContactWrap />;
       default:
         return <Home onNavChange={handleNavChange} />;
     }

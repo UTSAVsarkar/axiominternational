@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import React, { useEffect, useState } from "react";
 import Temp from "../components/Temp";
 import AboutUsIntro from "../IntroPages/AboutUsInto";
+import Contact from "./Contact/Contact";
 
 interface Props {
     onNavChange: (item: string) => void;
@@ -58,6 +59,9 @@ const Home: React.FC<Props> = ({ onNavChange }) => {
                         initial={{ opacity: 0, y: 40 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.8, ease: "easeOut", delay: 0.3 }}
+                        onClick={() => {
+                            onNavChange('About Us');
+                        }}
                     >
                         Connect Us
                     </motion.button>
@@ -67,6 +71,8 @@ const Home: React.FC<Props> = ({ onNavChange }) => {
             <AboutUsIntro onNavChange={onNavChange} />
 
             <Temp />
+
+            <Contact />
         </>
     );
 }

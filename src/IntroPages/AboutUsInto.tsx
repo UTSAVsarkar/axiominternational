@@ -1,4 +1,4 @@
-import MotionLine from "../components/Navbar/MotionLine";
+import MotionLine from "../components/MotionLine";
 import SectionIntro from "../components/SectionIntro";
 import MissionVision from "./MissionVision";
 

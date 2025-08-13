@@ -1,7 +1,6 @@
 import React, { useRef } from 'react';
 import { Box, Grid, Typography, Button } from '@mui/material';
 import { motion, Transition, useScroll, useSpring, useTransform, Variants } from 'framer-motion';
-import MotionLine from '../components/Navbar/MotionLine';
 
 interface Props {
     onNavChange: (item: string) => void;
