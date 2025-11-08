@@ -155,22 +155,22 @@ const Contact = () => {
                             <Typography variant="subtitle2" color="text.secondary" fontWeight={500}>
                                 ADDRESS
                             </Typography>
-                            <Typography>500 Terry Francine Street</Typography>
-                            <Typography>San Francisco, CA 94158</Typography>
+                            <Typography>T-19, LGF, Greenpark main</Typography>
+                            <Typography>New Delhi - 110016</Typography>
                         </Box>
 
                         <Box mb={3} textAlign="center">
                             <Typography variant="subtitle2" color="text.secondary" fontWeight={500}>
                                 PHONE
                             </Typography>
-                            <Typography>123-456-7890</Typography>
+                            <Typography>7042090025</Typography>
                         </Box>
 
                         <Box mb={3} textAlign="center">
                             <Typography variant="subtitle2" color="text.secondary" fontWeight={500}>
                                 EMAIL
                             </Typography>
-                            <Typography>info@mysite.com</Typography>
+                            <Typography>info@adimeresolutions.com</Typography>
                         </Box>
 
                         <Box display="flex" gap={2} justifyContent="center">
