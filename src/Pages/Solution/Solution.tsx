@@ -46,7 +46,7 @@ export default function Solution() {
                     transition={{ duration: 1, ease: "easeIn" }}
                     style={{ marginTop: '2rem' }}
                 >
-                    <Typography variant="h4">At Axiom International</Typography>
+                    <Typography variant="h4">At Adimere</Typography>
                     <h1 className="responsive-heading">
                         We help manufacturing <br />
                         businesses unlock <br />

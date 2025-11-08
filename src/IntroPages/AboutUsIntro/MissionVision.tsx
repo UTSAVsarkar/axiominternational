@@ -112,7 +112,7 @@ export default function MissionVision(props: Props) {
                         variants={textVariant}
                         style={{ color: 'white' }}
                     >
-                        Axiom International is a IT Services Integrator focused on providing world-class IT infrastructure services to customers across India. With our comprehensive spectrum of solutions and services, we deliver faster and better business. We believe in following a structured approach to create and implement solutions.
+                        Adimere is a IT Services Integrator focused on providing world-class IT infrastructure services to customers across India. With our comprehensive spectrum of solutions and services, we deliver faster and better business. We believe in following a structured approach to create and implement solutions.
                     </motion.h3>
 
                     <Box sx={{ display: 'flex', justifyContent: 'center', mt: 2 }}>

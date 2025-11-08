@@ -87,7 +87,7 @@ const Contact = () => {
                             CONTACT US
                         </Typography>
                         <Typography variant="h4" fontWeight="bold" mb={3} color="text.primary">
-                            Reach out with any questions or inquiries
+                            Reach out with any questions
                         </Typography>
 
                         <Box display="flex" gap={2} mb={2} flexWrap="wrap">

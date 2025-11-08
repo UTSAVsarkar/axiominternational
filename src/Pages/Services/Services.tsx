@@ -28,7 +28,7 @@ function Services() {
                     transition={{ duration: 1, ease: "easeIn" }}
                     style={{ marginTop: '2rem' }}
                 >
-                    <Typography variant="h4">At Axiom International</Typography>
+                    <Typography variant="h4">At Adimere</Typography>
                     <h1 className="responsive-heading">
                         We take pride in delivering<br />
                         measurable results in <br />
