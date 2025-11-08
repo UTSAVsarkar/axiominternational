@@ -45,7 +45,7 @@ export default function Navbar(props: Props) {
                     {/* Logo */}
                     <div style={{ cursor: 'pointer' }} onClick={() => handleNavItemClick('Home')}>
                         <Typography variant="h4" sx={{ display: "flex", alignItems: "center", gap: "4px", cursor: 'pointer' }}>
-                            Adimere solutions pvt ltd
+                            Adimere Solutions Pvt Ltd
                             <span style={{ color: "#b06118", fontSize: "2.5rem" }}>.</span>
                         </Typography>
                     </div>
