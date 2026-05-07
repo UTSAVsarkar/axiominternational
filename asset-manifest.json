@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.6394a360.css",
-    "main.js": "/static/js/main.6331afaf.js",
-    "static/js/453.bf6b92ea.chunk.js": "/static/js/453.bf6b92ea.chunk.js",
-    "index.html": "/index.html",
-    "main.6394a360.css.map": "/static/css/main.6394a360.css.map",
-    "main.6331afaf.js.map": "/static/js/main.6331afaf.js.map",
-    "453.bf6b92ea.chunk.js.map": "/static/js/453.bf6b92ea.chunk.js.map"
+    "main.css": "/axiominternational/static/css/main.6394a360.css",
+    "main.js": "/axiominternational/static/js/main.69977eed.js",
+    "static/js/453.bf6b92ea.chunk.js": "/axiominternational/static/js/453.bf6b92ea.chunk.js",
+    "index.html": "/axiominternational/index.html",
+    "main.6394a360.css.map": "/axiominternational/static/css/main.6394a360.css.map",
+    "main.69977eed.js.map": "/axiominternational/static/js/main.69977eed.js.map",
+    "453.bf6b92ea.chunk.js.map": "/axiominternational/static/js/453.bf6b92ea.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6394a360.css",
-    "static/js/main.6331afaf.js"
+    "static/js/main.69977eed.js"
   ]
 }
