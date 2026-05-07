@@ -45,7 +45,7 @@ export default function Navbar(props: Props) {
                     <div style={{ cursor: 'pointer' }} onClick={() => handleNavItemClick('Home')}>
                         <Box
                             component="img"
-                            src="/company_logo.png"
+                            src={`${process.env.PUBLIC_URL}/company_logo.png`}
                             alt="logo"
                             sx={{
                                 height: 70,
