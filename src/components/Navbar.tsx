@@ -44,10 +44,15 @@ export default function Navbar(props: Props) {
                 <Toolbar sx={{ justifyContent: "space-between" }}>
                     {/* Logo */}
                     <div style={{ cursor: 'pointer' }} onClick={() => handleNavItemClick('Home')}>
-                        <Typography variant="h4" sx={{ display: "flex", alignItems: "center", gap: "4px", cursor: 'pointer' }}>
-                            Adimere
-                            <span style={{ color: "#b06118", fontSize: "2.5rem" }}>.</span>
-                        </Typography>
+                        <Box
+                            component="img"
+                            src="/company_logo.png"
+                            alt="logo"
+                            sx={{
+                                height: 70,
+                                width: "auto",
+                            }}
+                        />
                     </div>
 
                     {/* Desktop Menu */}

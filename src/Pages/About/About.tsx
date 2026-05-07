@@ -17,7 +17,7 @@ function About() {
                     p: "2rem",
                 }}
             >
-                <Box sx={{ mt: 8 }}>
+                <Box sx={{ mt: 6 }}>
                     <MotionLine color="white" />
                 </Box>
 
