@@ -60,9 +60,9 @@ export default function Navbar(props: Props) {
                             <Button
                                 key={item}
                                 sx={{
-                                    color: activeItem === item ? '#b06118' : '#fff',
+                                    color: activeItem === item ? '#f6c01f' : '#fff',
                                     textTransform: "none",
-                                    "&:hover": { color: "#b06118" },
+                                    "&:hover": { color: "#f6c01f" },
                                     fontSize: '1rem'
                                 }}
                                 onClick={() => handleNavItemClick(item)}
@@ -77,7 +77,7 @@ export default function Navbar(props: Props) {
                         sx={{ display: { xs: "flex", md: "none" }, color: "#fff" }}
                         onClick={toggleDrawer(true)}
                     >
-                        <MenuIcon />
+                        <MenuIcon sx={{ fontSize: 36 }} />
                     </IconButton>
                 </Toolbar>
             </AppBar>
@@ -93,7 +93,7 @@ export default function Navbar(props: Props) {
                     <List>
                         {navItems.map((item) => (
                             <ListItem key={item} component="a">
-                                <ListItemText sx={{ color: activeItem === item ? '#b06118' : '#fff', }} primary={item} onClick={() => handleNavItemClick(item)} />
+                                <ListItemText sx={{ color: activeItem === item ? '#f6c01f' : '#fff', }} primary={item} onClick={() => handleNavItemClick(item)} />
                             </ListItem>
                         ))}
                     </List>

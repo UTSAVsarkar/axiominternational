@@ -24,7 +24,7 @@ export const AnimatedLine = (props: AnimatedLineProps) => {
                 sx={{
                     width: "2px",
                     height: "100%",
-                    backgroundColor: "#AF6118",
+                    backgroundColor: "#f6c01f",
                     transformOrigin: "top",
                 }}
             />

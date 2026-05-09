@@ -155,15 +155,19 @@ const Contact = () => {
                             <Typography variant="subtitle2" color="text.secondary" fontWeight={500}>
                                 ADDRESS
                             </Typography>
-                            <Typography>T-19, LGF, Greenpark main</Typography>
-                            <Typography>New Delhi - 110016</Typography>
+
+                            <Typography>8th Floor, 809</Typography>
+                            <Typography>89, Hemkunt Chambers</Typography>
+                            <Typography>Nehru Place</Typography>
+                            <Typography>South East Delhi</Typography>
+                            <Typography>New Delhi, Delhi - 110019</Typography>
                         </Box>
 
                         <Box mb={3} textAlign="center">
                             <Typography variant="subtitle2" color="text.secondary" fontWeight={500}>
                                 PHONE
                             </Typography>
-                            <Typography>7042090025</Typography>
+                            <Typography>+91 114412 7819</Typography>
                         </Box>
 
                         <Box mb={3} textAlign="center">
@@ -177,7 +181,13 @@ const Contact = () => {
                             <IconButton sx={{ color: "#3b5998" }}>
                                 <FacebookIcon />
                             </IconButton>
-                            <IconButton sx={{ color: "#0077b5" }}>
+                            <IconButton
+                                sx={{ color: "#0077b5" }}
+                                component="a"
+                                href="https://www.linkedin.com/company/adimere-solutions-private-limited/posts/?feedView=all"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
                                 <LinkedInIcon />
                             </IconButton>
                             <IconButton sx={{ color: "#1da1f2" }}>

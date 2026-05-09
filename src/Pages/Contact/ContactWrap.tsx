@@ -8,6 +8,7 @@ function ContactWrap() {
             <Box
                 sx={{
                     backgroundColor: "black",
+                    minHeight: "100vh",
                     p: "1rem",
                 }}
             >

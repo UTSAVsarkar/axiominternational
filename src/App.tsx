@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import './App.css';
 import Home from './Pages/Home';
 import About from './Pages/About/About';
 import ContactWrap from './Pages/Contact/ContactWrap';

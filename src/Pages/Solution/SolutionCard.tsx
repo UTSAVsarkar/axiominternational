@@ -42,7 +42,7 @@ export const SolutionCard = ({ solution }: { solution: (typeof solutions)[0] }) 
                         {/* Section number */}
                         <Typography
                             variant="h5"
-                            sx={{ color: "#AF6118", fontWeight: "bold", fontSize: "1.8rem" }}
+                            sx={{ color: "#f6c01f", fontWeight: "bold", fontSize: "1.8rem" }}
                         >
                             {solution.number}.
                         </Typography>
@@ -78,7 +78,7 @@ export const SolutionCard = ({ solution }: { solution: (typeof solutions)[0] }) 
                                 <li key={idx}>
                                     <Typography
                                         variant="subtitle2"
-                                        sx={{ color: "#AF6118", fontWeight: 600 }}
+                                        sx={{ color: "#f6c01f", fontWeight: 600 }}
                                     >
                                         {point.subheading}
                                     </Typography>

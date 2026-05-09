@@ -71,7 +71,7 @@ export default function Solution() {
                                 (<TimelineItem>
                                     <TimelineSeparator>
                                         <TimelineConnector />
-                                        <TimelineDot style={{ background: '#AF6118' }} />
+                                        <TimelineDot style={{ background: '#f6c01f' }} />
                                         <TimelineConnector />
                                     </TimelineSeparator>
                                     <TimelineContent sx={{ py: '12px', px: 2 }}>

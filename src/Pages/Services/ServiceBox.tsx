@@ -58,7 +58,7 @@ export const ServiceBox = (props: project) => {
 
             {/* Separator */}
             {isMobile ? (
-                <MotionLine color="#AF6118" />
+                <MotionLine color="#f6c01f" />
             ) : (
                 <AnimatedLine isInView={isInView} />
             )}
@@ -72,14 +72,14 @@ export const ServiceBox = (props: project) => {
                     pl: isMobile ? 0 : 6,
                 }}
             >
-                <Typography variant="subtitle1" fontWeight="bold" color="#AF6118" gutterBottom>
+                <Typography variant="subtitle1" fontWeight="bold" color="#f6c01f" gutterBottom>
                     Goal:
                 </Typography>
                 <Typography variant="body1" gutterBottom>
                     {props.goal}
                 </Typography>
 
-                <Typography variant="subtitle1" fontWeight="bold" color="#AF6118" gutterBottom>
+                <Typography variant="subtitle1" fontWeight="bold" color="#f6c01f" gutterBottom>
                     What We Did:
                 </Typography>
                 <ul style={{ paddingLeft: "1.2rem", marginTop: 0 }}>
@@ -90,7 +90,7 @@ export const ServiceBox = (props: project) => {
                     ))}
                 </ul>
 
-                <Typography variant="subtitle1" fontWeight="bold" color="#AF6118" gutterBottom>
+                <Typography variant="subtitle1" fontWeight="bold" color="#f6c01f" gutterBottom>
                     Outcome:
                 </Typography>
                 <ul style={{ paddingLeft: "1.2rem", marginTop: 0 }}>
